@@ -1,0 +1,188 @@
+ul {
+  padding: 0;
+  margin: 0;
+}
+label {
+  display: block;
+}
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.signup-form {
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  width: 528px;
+  height: 581px;
+  padding: 40px;
+  outline: 5px dashed black;
+}
+.signup-form label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+b {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.input-list li:focus-within svg {
+  fill: #2196f3;
+}
+.input-list input:focus {
+  outline: 1px solid #2196f3;
+  border: transparent;
+}
+
+.submit-btn {
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+  height: 50px;
+  background-color: #2196f3;
+  color: #fff;
+  border: transparent;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px #00000026;
+}
+.input-list li {
+  margin-bottom: 10px;
+}
+.input-list {
+  margin-top: 12px;
+  padding-left: 0;
+}
+.input-list input {
+  width: 100%;
+  height: 40px;
+  padding: 0;
+  padding-left: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.icon-input {
+  margin-top: 4px;
+  position: relative;
+}
+.icon-name {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+}
+
+textarea {
+  margin-top: 4px;
+  height: 120px;
+  padding: 12px 16px;
+  resize: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+textarea:focus {
+  outline: 1px solid #2196f3;
+  border: transparent;
+}
+textarea:focus::placeholder {
+  opacity: 0;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  position: relative;
+}
+.policy {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 425px;
+}
+.policy > label {
+  width: 100%;
+  height: 24px;
+  text-align: center;
+}
+.check-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+  pointer-events: none;
+}
+.icon-check {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+.check-input:checked + label > .icon-check {
+  background-color: #2196f3;
+  border: transparent;
+}
+
+/* ПОДПИСКА НА РАССЫЛКУ */
+.subscribe {
+  width: 570px;
+  height: 86px;
+}
+.subscribe-btn {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 28px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px #00000026;
+}
+.subscribe-group {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.subscribe-group input {
+  width: 358px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+
+  margin-right: 12px;
+  box-sizing: border-box;
+}
+.icon-send {
+  margin-left: 10px;
+}
