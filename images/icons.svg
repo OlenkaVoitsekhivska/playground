@@ -149,5 +149,9 @@
             <path fill="#fff" style="fill:var(--color1, #fff)"
                 d="M32 0 0 18l10.227 3.788L26 7 14.002 23.186l.01.004-.012-.004V32l5.735-6.691L27 28l5-28z" />
         </symbol>
+        <symbol id="icon-arrow" viewBox="0 0 26 32">
+            <path fill="none" stroke="#d41443" style="stroke:var(--color1, #d41443)" stroke-linejoin="round"
+                stroke-linecap="round" stroke-width="6.4" d="M5.172 3.2 19.341 16 5.172 28.8" />
+        </symbol>
     </defs>
 </svg>
