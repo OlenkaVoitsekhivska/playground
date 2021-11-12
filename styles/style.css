@@ -295,7 +295,7 @@ p {
     content: '';
     display: block;
     background-image: url('../images/cow-desk.png');
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     background-repeat: no-repeat;
     width: 516px;
     height: 516px;
